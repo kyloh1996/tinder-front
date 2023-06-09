@@ -5,7 +5,9 @@ import {
   CarouselControl,
   CarouselIndicators,
   CarouselCaption,
+  Button,
 } from 'reactstrap';
+import { NavLink } from 'react-router-dom'
 import practice from '../MockData';
 
 import '../styles/PracticeIndex.css'; 
@@ -66,6 +68,9 @@ const PracticeIndex = (args) => {
   captionHeader={<div className="custom-header">{item.caption}</div>}
   captionText={<div className="custom-text">{`${item.age} ${item.gender}`}</div>}
 />
+<NavLink className="navBtn" to={`/practiceshow/${practice.id}`}>
+                    <Button>More info</Button>
+                  </NavLink>
       </CarouselItem>
     );
   });

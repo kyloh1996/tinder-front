@@ -22,5 +22,8 @@
   }
     
   
-  
-  
+  .navBtn{
+    position: fixed;
+    top: 10em;
+    right: 40em;
+    }

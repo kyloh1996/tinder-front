@@ -1,12 +1,14 @@
 import React from 'react';
+import '../App.css';
 
-
-const Show = () =>{
+const PracticeShow = () =>{
     return(
-        <div>
-            <h1> show </h1>
-        </div>
-    )
-}
+<div >
+    <h1 className="verify">Show Page</h1>
+</div>
+  );
+};
 
-export default Show;
+export default PracticeShow;
+
+//individual profile from carousel 
