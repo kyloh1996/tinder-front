@@ -1,11 +1,19 @@
 import React from 'react';
-
+import { Navbar, NavbarBrand } from 'reactstrap';
 
 const Footer = () =>{
     return(
-        <div>
-            <h1> &copy; Kyle | 2023</h1>
-        </div>
+
+        <Navbar
+        className="me-2"
+        color="dark"
+        dark
+        fixed="bottom"
+        fluid
+      >
+        <NavbarBrand href="/">&copy; Kyle | 2023
+        </NavbarBrand>
+      </Navbar>
     )
 }
 

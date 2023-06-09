@@ -5,7 +5,10 @@ const Header = () => {
   return (
     <Navbar className="me" 
     color="secondary" 
-    dark>
+    dark
+    fixed="top"
+    fluid
+    >
       <NavbarBrand href="/">Practice
        </NavbarBrand>
     </Navbar>

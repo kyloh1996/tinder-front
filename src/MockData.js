@@ -1,22 +1,26 @@
-let practice = [
+const practice = [
     {
-        id: 1, 
-        name: 'John Doe',
-        age:  1,
-        gender: 'male'
+      id: 1,
+      name: 'Garen',
+      age: 31,
+      gender: 'male',
+      image: require('./assets/Garen.jpeg'),
     },
     {
-        id: 2, 
-        name: 'Jane Doe',
-        age:  2,
-        gender: 'female'
+      id: 2,
+      name: 'Katarina',
+      age: 28,
+      gender: 'female',
+      image: require('./assets/Kat.jpeg'),
     },
     {
-        id: 3, 
-        name: 'Joe Doe',
-        age:  3,
-        gender: 'male'
+      id: 3,
+      name: 'Lux',
+      age: 23,
+      gender: 'female',
+      image: require('./assets/Lux.jpeg'),
     },
-];
-
-export default practice;
+  ];
+  
+  export default practice;
+  
