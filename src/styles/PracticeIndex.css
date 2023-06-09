@@ -1,23 +1,24 @@
 .carousel-image {
     width: 40%;
     height: 74vh;
-    border: 2px solid #000;
+    border: none;
     padding: 66px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(243, 3, 3);
+    background-color: none;
     margin: 0 auto;
+    margin-top: 100px;
   }
 
   .custom-header {
     font-size: 50px; 
-    color: #000;
+    color: white;
   }
   
   .custom-text {
     font-size: 24px; 
-    color: #000;
+    color: white;
   }
     
   

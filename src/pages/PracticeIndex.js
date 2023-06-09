@@ -9,6 +9,17 @@ import {
 import practice from '../MockData';
 
 import '../styles/PracticeIndex.css'; 
+import carousel from '../assets/carousel.jpeg'
+
+
+const carouselStyle = {
+    backgroundImage: `url(${carousel})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    minHeight: "90vh",
+    marginTop:'5vh'
+};
 
 const items = practice.map((item) => {
   return {
@@ -60,7 +71,7 @@ const PracticeIndex = (args) => {
   });
 
   return (
-    <Carousel activeIndex={activeIndex} next={next} previous={previous} {...args}>
+    <Carousel activeIndex={activeIndex} next={next} previous={previous} {...args} style={carouselStyle} >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
