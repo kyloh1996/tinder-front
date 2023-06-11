@@ -22,7 +22,7 @@ const carouselStyle = {
   marginTop: '5vh',
 };
 
-const PracticeIndex = ({ practice }) => {
+const PracticeIndex = ({practice}) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
