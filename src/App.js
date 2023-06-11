@@ -22,7 +22,7 @@ console.log(practice); // to see the data sent to server
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/practiceindex" element={<PracticeIndex practice={practice}/>} />
-      <Route path="/practiceshow" element={<PracticeShow />} />
+      <Route path="/practiceshow/:id" element={<PracticeShow practice={practice} />} />
 
       </Routes>
       <Footer />

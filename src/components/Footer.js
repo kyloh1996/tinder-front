@@ -11,7 +11,6 @@ const Footer = () =>{
         color="dark"
         dark
         fixed="bottom"
-        fluid
       >
         <NavbarBrand href="/">&copy; Kyle | 2023
         </NavbarBrand>

@@ -23,7 +23,7 @@
     
   
   .navBtn{
-    position: fixed;
+    position: absolute;
     top: 10em;
     right: 40em;
     }

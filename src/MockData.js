@@ -5,6 +5,7 @@ const practice = [
       age: 31,
       gender: 'male',
       image: require('./assets/Garen.jpeg'),
+      description: 'This is Garen, a powerful warrior.',
     },
     {
       id: 2,
@@ -12,6 +13,7 @@ const practice = [
       age: 28,
       gender: 'female',
       image: require('./assets/Kat.jpeg'),
+      description: 'Meet Katarina, a skilled assassin.',
     },
     {
       id: 3,
@@ -19,6 +21,7 @@ const practice = [
       age: 23,
       gender: 'female',
       image: require('./assets/Lux.jpeg'),
+      description: 'Introducing Lux, a mage with radiant powers.',
     },
   ];
   
