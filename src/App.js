@@ -3,10 +3,12 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
+import NotFound from "./pages/NotFound";
 import PracticeIndex from './pages/PracticeIndex';
 import PracticeShow from './pages/PracticeShow';
 import PracticeNew from './pages/PracticeNew';
 import PracticeEdit from './pages/PracticeEdit';
+
 
 import MockData from './MockData';
 
@@ -29,6 +31,7 @@ console.log(practice); // to see the data sent to server
       <Route path="/practiceshow/:id" element={<PracticeShow practice={practice} />} />
       <Route path="/practicenew" element={<PracticeNew practice={practice} />} />
       <Route path="/practiceedit" element={<PracticeEdit practice={practice} />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
       <Footer />
     </div>
