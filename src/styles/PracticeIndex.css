@@ -22,5 +22,14 @@
   }
     
   
-  
-  
+  .navBtn{
+    position: absolute;
+    top: 10em;
+    right: 40em;
+    }
+
+  .navBtn2{
+    position: absolute;
+    bottom: 10em;
+    left: 40em;
+    }

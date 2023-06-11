@@ -1,6 +1,8 @@
 import React from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
 
+import '../App.css';
+
 const Footer = () =>{
     return(
 
@@ -9,7 +11,6 @@ const Footer = () =>{
         color="dark"
         dark
         fixed="bottom"
-        fluid
       >
         <NavbarBrand href="/">&copy; Kyle | 2023
         </NavbarBrand>

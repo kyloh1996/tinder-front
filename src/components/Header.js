@@ -7,7 +7,6 @@ const Header = () => {
     color="secondary" 
     dark
     fixed="top"
-    fluid
     >
       <NavbarBrand href="/">Practice
        </NavbarBrand>
