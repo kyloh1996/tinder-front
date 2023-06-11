@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, NavLink } from 'react-router-dom';
 import practiceData from '../MockData';
 
 import '../styles/PracticeShow.css';
@@ -32,6 +32,9 @@ const PracticeShow = () => {
       <Link to='/practiceindex'>
         <Button className='return-button'>Return</Button>
       </Link>
+      <NavLink className="edtBtn" to="/practiceedit">
+        <Button>Edit Character</Button>
+      </NavLink>
     </div>
   );
 };

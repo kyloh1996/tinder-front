@@ -48,3 +48,8 @@
     bottom: 90px;
     right: 60px;
   }
+  .edtBtn{
+    position: absolute;
+    top: 10em;
+    left: 6em;
+}
